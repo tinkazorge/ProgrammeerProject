@@ -24,3 +24,5 @@ public class CollisionObjects
     //make sure she cant go any further
 
 ![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/13313456_1312269545455157_325343758_o.jpg "Schets 1")
+![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/13324043_1312269112121867_260447633_o.jpg "Schets 2")
+![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/screenshot.png "Screenshot")
