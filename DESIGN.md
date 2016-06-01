@@ -22,3 +22,5 @@ public class Snake
 public class CollisionObjects 
     //method: if chickenimage runs into an object
     //make sure she cant go any further
+
+https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/13313456_1312269545455157_325343758_o.jpg "Schets"
