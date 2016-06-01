@@ -27,4 +27,4 @@ public class CollisionObjects
 ![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/13324043_1312269112121867_260447633_o.jpg "Schets 2")
 ![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/screenshot.png "Screenshot")
 Figuur 3. Dit screenshot laat alvast een beginnetje zien. Heir staan nog wel pijltjestoetsen op, die ik heb besloten niet meer te gaan gebruiken. 
-![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/UML%20design%20PointClickGame.png "Classediagram"
+![alt text] (https://github.com/tinkazorge/ProgrammeerProject/blob/master/doc/UML%20design%20PointClickGame.png "Classediagram")
