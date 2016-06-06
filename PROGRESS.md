@@ -30,3 +30,9 @@ Ten slotte heb ik het besturingssysteem aangepast. Ik gebruik nu definitief pijl
 Nadat ik veel (helaas op niet bepaald de goeie manier) heb geïmplementeerd gisteren, moet ik eigenlijk al mijn klassen gaan herzien. Ik heb DetectCollision al verwijderd, omdat dit niet nodig bleek. Ik weet nu ook niet meer zo goed wat ik met mijn klasse Chicken aanmoet, omdat het belangrijkste van deze klasse was om de coordinaten te rkijgen en te setten om de chicken te bewegen. Nu blijkt echter dat ik dat veel simpeler kan doen door de linkermarge van de sprite aan te passen. Dit staat nu in main, dus dat zou ik wel in deze klasse kunnen zetten. 
 
 Ik heb uiteindelijk besloten de chicken class weg te den en het verschuiven van de sprite in ClickObjects te gooien. Hetzelfde geldt voor de snake class. Ze hebben uiteindelijk allebei weinig properties en ze zijn beiden klikbare objecten, waarbij iets moet gebeuren. Mijn klassen zijn nu dus ClickObjects en TextPopUp; aan beiden moeten objecten kunnen worden meegegeven. Nu ik ben begonnen met de TextPopUps klasse ben ik hier ook een beetje aan het twijfelen. Ik denk dat een aparte klasse wel handig is omdat ik erg veel tekst gebruik, maar het voelt een beetje dubbelop omdat ik hier eigenlijk hetzelfde doe als in de clickobjects klasse: een object dat is aangeklikt wordt doorgegeven en er moet iets mee gebeuren.
+
+###Dag 6
+Ik heb een nieuw scherm gemaakt met een puzzel erin die het slot van het kippenhok moet openmaken; als je het juiste antwoord invult ga je terug naar het main screen. Ik heb daarnaast een paar bugs opgelost. 
+
+###Dag 7
+
