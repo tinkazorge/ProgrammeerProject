@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tinkazorge.pointclickgame.MainActivity"
+    android:weightSum="1"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_width="100pt"
+        android:layout_height="80pt"
+        android:id="@+id/imageView2"
+        android:src="@drawable/toilet2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50pt"
+        android:id="@+id/flush"
+        android:src="@drawable/flush"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginTop="31dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/snake"
+        android:src="@drawable/snake2"
+        android:layout_alignTop="@+id/flush"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="100dp"
+        android:id="@+id/arrowleft"
+        android:src="@drawable/arrowleft"
+        android:clickable="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/arrowright"
+        android:layout_alignEnd="@+id/arrowright"
+        android:layout_marginBottom="209dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/arrowright3"
+        android:clickable="true"
+        android:id="@+id/arrowright"
+        android:layout_alignBottom="@+id/arrowleft"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="506dp"
+        android:layout_marginStart="506dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fat_chicken"
+        android:src="@drawable/kip"
+        android:layout_alignTop="@+id/snake"
+        android:layout_alignLeft="@+id/flush_text_3"
+        android:layout_alignStart="@+id/flush_text_3" />
+
+    <ImageView
+        android:layout_width="30pt"
+        android:layout_height="82dp"
+        android:id="@+id/chicken_1"
+        android:layout_gravity="bottom"
+        android:src="@drawable/chicken1"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="82dp"
+        android:id="@+id/chicken_2"
+        android:layout_gravity="bottom"
+        android:src="@drawable/chicken5"
+        android:layout_below="@+id/snake"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="20pt"
+        android:layout_height="82dp"
+        android:id="@+id/chicken_3"
+        android:layout_gravity="bottom"
+        android:src="@drawable/chicken6"
+        android:layout_below="@+id/snake"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/feather_1"
+        android:src="@drawable/feather"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Nothing happened..."
+        android:id="@+id/flush_text_1"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Hey! What's that? A rumble?"
+        android:id="@+id/flush_text_2"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Something's coming up!"
+        android:id="@+id/flush_text_3"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Snake: I'm sssssssso hungry!"
+        android:id="@+id/flush_text_4"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="I'd lay some eggs, but I'm too stressed out..."
+        android:id="@+id/fatchicken_text_1"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
