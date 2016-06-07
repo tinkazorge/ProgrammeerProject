@@ -35,4 +35,7 @@ Ik heb uiteindelijk besloten de chicken class weg te den en het verschuiven van 
 Ik heb een nieuw scherm gemaakt met een puzzel erin die het slot van het kippenhok moet openmaken; als je het juiste antwoord invult ga je terug naar het main screen. Ik heb daarnaast een paar bugs opgelost. 
 
 ###Dag 7
+Ik ben bezig geweest met het afmaken va de puzzels en het ordenen van de methods. TextPopUp en makeVisible en Invisible hebbenmijn code al iets oevrzichterlijker gemaakt. Ik heb geprobeerd van mijn puzzel een ActivityForResult te maken, maar dit bleek niet te kunnen. Nu geef ik een boolean door. Ik blijf echter steeds errors krijgen als de boolean moet worden doorgegeven. 
 
+###Dag 8 
+Ik heb mijn code laten zien en code hour, en martijn raadde me aan een subklasse te maken. Ik heb wat veel code in mijn mainactivity staan die verdeeld moet worden over wat meer klassen. Dit zal gebeuren als ik mijn clickItems klasse ga inrichten. Verder heb ik wat problemen met de gitRepository; ik moet mijn code in mijn Programmeerproject repository krijgen, want ik heb per ongeluk hier een nieuwe repository voor gemaakt waarvan ik het pad niet kan vinden en dus ook niet kan committen. 
